@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.devnet_mid_project.FaqFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/v">
+
+        <ImageView
+            android:id="@+id/imgFaq"
+            android:layout_width="321dp"
+            android:layout_height="189dp"
+            android:layout_marginTop="28dp"
+            android:src="@drawable/q"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtFaq"
+            android:layout_width="347dp"
+            android:layout_height="109dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/days_one"
+            android:text="Frequently Asked Questions"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgFaq" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

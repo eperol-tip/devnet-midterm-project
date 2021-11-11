@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.devnet_mid_project.DescriptionFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/v">
+
+        <TextView
+            android:id="@+id/txtAb"
+            android:layout_width="331dp"
+            android:layout_height="133dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/days_one"
+            android:text="ABOUT THE PROJECT"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="48sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtProjText"
+            android:layout_width="317dp"
+            android:layout_height="376dp"
+            android:layout_marginTop="48dp"
+            android:fontFamily="@font/alegreya_sans_medium"
+            android:text="It is a tool for determining power generation or demand that minimizes a clear objective, such as generation cost, power loss, or environmental impact."
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtAb" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
