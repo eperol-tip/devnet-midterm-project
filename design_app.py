@@ -25,7 +25,7 @@ def login():
         password = request.form.get('password')
 
         body = {"username": username, "password": password}
-        login_url = "http://localhost:5000/login"
+        login_url = "http://10.0.2.15:5000/login"
         response = post(login_url, json=body)
 
         response = response.json()
@@ -46,7 +46,7 @@ def register():
         password = request.form.get('password')
 
         body = {"email": email, "username": username, "password": password}
-        register_url = "http://localhost:5000/register"
+        register_url = "http://10.0.2.15:5000/register"
         response = post(register_url, json=body)
 
         return redirect('/login')
